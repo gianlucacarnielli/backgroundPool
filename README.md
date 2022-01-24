@@ -1,6 +1,6 @@
 # Offloading Callback Execution to a Background Pool
 
-## Description
+## Overview
 This demo shows how to use "backgroundPool" within App Designer to separate a callback execution from the app's thread.
 
 ## How to run this demo
