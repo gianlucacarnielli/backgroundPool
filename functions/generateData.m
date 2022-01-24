@@ -1,6 +1,6 @@
 function out = generateData
-% Create magic matrix of size between 900 and 1000 and assign
-% it to UITable data
+% Create a 20x20 array of random numbers and pause for 5 seconds to
+% emulate a long calculation
 
-pause(5)
 out = rand(20);
+pause(5)
