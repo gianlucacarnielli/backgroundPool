@@ -5,20 +5,20 @@ This demo shows how to use "backgroundPool" within App Designer to separate a ca
 
 ## How to run this demo
 To see the use of "backgroundPool" proceed as follows:
-* Run the "parallelApp" (e.g., via the project shortcut);
+* Run the "Parallel App" (e.g., via the project shortcut);
 * Press the "Start Simulation" button;
 * Wait a couple of seconds;
 * Press the "Generate Random Data" button.
 
-**In this case, the table data is updated in another thread and the simulation does not pause.**
+**In this case, the table data is updated in a separate thread and the simulation does not pause.**
 
-To compare with a case where the callback is not offloaded to a separate thread follow the steps below:
-* Run the "seriesApp" (e.g., via the project shortcut);
+To compare with a case where the callback is not offloaded to a new thread follow the steps below:
+* Run the "Series App" (e.g., via the project shortcut);
 * Press the "Start Simulation" button;
 * Wait a couple of seconds;
 * Press the "Generate Random Data" button.
 
-**In this other case, updating the table will temporarily stop the simulation execution.**
+**In this other case, updating the table will temporarily stop the simulation execution since the callback is executed within the app.**
 
 The code for boths apps can be inspected in App Designer.
 
