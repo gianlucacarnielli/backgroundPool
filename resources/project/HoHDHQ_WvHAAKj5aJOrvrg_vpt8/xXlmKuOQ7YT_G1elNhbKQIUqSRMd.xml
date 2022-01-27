@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info description="This project shows the use of backgroundPool in an app to run a long calculation in the background. It contains two similar apps, performing the same tasks: one is uses backgroundPool and the other one does not, so that the two approaches can be compared." />
