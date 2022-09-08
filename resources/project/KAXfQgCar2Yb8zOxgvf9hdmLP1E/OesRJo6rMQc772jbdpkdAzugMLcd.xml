@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Info Type="Basic" GroupUUID="38a9c3af-f554-4115-b5c3-818895822e98" Visible="1" Icon="" File="shortcuts/openSeriesApp.m" Name="Open Series App" />
+<?xml version="1.0" encoding="UTF-8"?>
+<Info File="shortcuts/openSeriesApp.m" GroupUUID="38a9c3af-f554-4115-b5c3-818895822e98" Icon="" Name="Open Series App" Type="Basic" Visible="1"/>
